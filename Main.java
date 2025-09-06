@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
       
-        libro libro1 = new libro("Narnia", "fidel castro", 6, 4);
+        libro libro1 = new libro("el libro de la vida", "la catrina", 6, 4);
 
         
-        libro libro2 = new libro( "el cuervo", "Manulo sanches", 10, 2);
+        libro libro2 = new libro( "sendokay", "guillermo sanches", 10, 2);
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Ingrese título del libro2: ");
             libro2.setTitulo(sc.nextLine());
