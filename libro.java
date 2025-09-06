@@ -43,19 +43,5 @@ public class libro {
     }
 
     
-    public boolean devolucion() {
-        if (numPrestados > 0) {
-            numPrestados--;
-            return true;
-        }
-        return false;
-    }
-
-    @Override
-    public String toString() {
-        return "Título: " + titulo + 
-               ", Autor: " + autor + 
-               ", Ejemplares: " + numEjemplares + 
-               ", Prestados: " + numPrestados;
-    }
+   
 }
